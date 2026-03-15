@@ -26,4 +26,4 @@ jobs:
     uses: mateus0507/pipeline-templates/.github/workflows/docker-build.yaml@main
     with:
       image_name: next-app
-      context_dir: . 
+      context_dir: .
