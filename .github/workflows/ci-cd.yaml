@@ -18,3 +18,4 @@ jobs:
       STACK_TYPE: "next"
       VERSION: "22"
       #tem que rodar a versão 22 do node
+      #cade
