@@ -17,4 +17,3 @@ jobs:
     with:
       STACK_TYPE: "next"
       VERSION: ""
-#teste default 22
