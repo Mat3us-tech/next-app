@@ -1,30 +1,19 @@
-# Nome do workflow que aparecerá na aba "Actions" do GitHub
-# Esse nome identifica a pipeline principal para aplicações Next.js ou React
 name: CI-CD Next/React App Pipeline
-
-# Define em quais eventos esse workflow será executado
 on:
   workflow_call:
-
-  # Executa quando houver push direto nas branches abaixo
   push:
     branches:
       - main
       - dev
       - 'feature/**'
-
-  # Executa também quando houver Pull Request apontando para as branches abaixo
   pull_request:
     branches:
       - main
       - dev
-
-# Define os jobs da pipeline
 jobs:
-
-  # Job que chama o workflow reutilizável com o tipo da stack
   chamar-templates:
     uses: mateus0507/pipeline-templates/.github/workflows/exec-templates.yaml@main
     secrets: inherit
     with:
       STACK_TYPE: "next"
+      VERSION: "20" 
