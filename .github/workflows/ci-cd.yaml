@@ -17,3 +17,4 @@ jobs:
     with:
       STACK_TYPE: "next"
       version: ""
+      
