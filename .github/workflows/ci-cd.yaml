@@ -16,5 +16,4 @@ jobs:
     secrets: inherit
     with:
       STACK_TYPE: "next"
-      version: "" 
-      #teste1
+      version: "20" 
