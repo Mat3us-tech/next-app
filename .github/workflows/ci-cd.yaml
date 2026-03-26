@@ -17,4 +17,3 @@ jobs:
     with:
       STACK_TYPE: "next"
       version: "20"
-      #teste se salva no Docker Hub
