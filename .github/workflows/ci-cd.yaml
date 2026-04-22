@@ -1,6 +1,6 @@
 name: CI-CD Next/React App Pipeline
 on:
-  workflow_call:
+  workflow_call: 
   push:
     branches:
       - main
