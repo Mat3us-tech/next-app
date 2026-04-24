@@ -12,7 +12,7 @@ on:
       - dev
 jobs:
   chamar-templates:
-    uses: mateus0507/pipeline-templates/.github/workflows/exec-templates.yaml@main
+    uses: Mat3us-tech/pipeline-templates/.github/workflows/exec-templates.yaml@main
     secrets: inherit
     with:
       STACK_TYPE: "next"
